@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">LendingHelper</string>
+    <string name="ChannelId">com.flowrithm.lendinghelper</string>
+    <string name="ChannelName">LendingHelper</string>
 </resources>
