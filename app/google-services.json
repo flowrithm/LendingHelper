@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "57958028071",
+    "firebase_url": "https://lendinghelper.firebaseio.com",
+    "project_id": "lendinghelper",
+    "storage_bucket": "lendinghelper.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:57958028071:android:442b90dc26796e18",
+        "android_client_info": {
+          "package_name": "com.flowrithm.lendinghelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "57958028071-o4mknmses4sn19kkgoifb7ksa8ischdo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.flowrithm.lendinghelper",
+            "certificate_hash": "b040ac6fa07fc742b9608c5a1954798775b85bbe"
+          }
+        },
+        {
+          "client_id": "57958028071-v2ej3i3og8rtj92dpbfodoh0dnrp8imn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWGqFg2qodXwZpRQvi3KvCTBfKsJvhh3A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "57958028071-v2ej3i3og8rtj92dpbfodoh0dnrp8imn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
