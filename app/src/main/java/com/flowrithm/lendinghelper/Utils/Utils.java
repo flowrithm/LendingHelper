@@ -35,7 +35,7 @@ import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
-import com.flowrithm.lendinghelper.Activity.MainActivity;
+import com.flowrithm.lendinghelper.Activity.register;
 import com.flowrithm.lendinghelper.R;
 import com.google.firebase.messaging.RemoteMessage;
 import com.kaopiz.kprogresshud.KProgressHUD;
@@ -657,7 +657,7 @@ public class Utils {
     public static void sendNotification(Context context, RemoteMessage message) {
         Map<String, String> messageHash = message.getData();
         String ImagePath = messageHash.get("Image");
-        Intent intent = new Intent(context, MainActivity.class);
+        Intent intent = new Intent(context, register.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         PendingIntent pendingIntent = PendingIntent.getActivity(context, 0 /* Request code */, intent,
                 PendingIntent.FLAG_ONE_SHOT);

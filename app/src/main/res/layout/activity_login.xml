@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.login"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/icon_rupee"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtusername"
+            android:hint="Username"
+            android:drawablePadding="10dp"
+            android:layout_margin="10dp"
+            android:drawableLeft="@mipmap/icon_name"
+            android:background="@drawable/register_background"
+            android:elevation="5dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtloginpassword"
+            android:hint="Password"
+            android:drawablePadding="10dp"
+            android:layout_margin="10dp"
+            android:drawableLeft="@mipmap/icon_password"
+            android:background="@drawable/register_background"
+            android:elevation="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtforgotpassword"
+            android:text="Forgot Password?"
+            android:textSize="20dp"
+            android:drawablePadding="10dp"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnlogin"
+            android:text="login"
+            android:textSize="15dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/register_button"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtregisternow"
+            android:text="@string/register"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:drawablePadding="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

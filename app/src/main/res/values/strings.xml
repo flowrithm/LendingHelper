@@ -2,4 +2,7 @@
     <string name="app_name">LendingHelper</string>
     <string name="ChannelId">com.flowrithm.lendinghelper</string>
     <string name="ChannelName">LendingHelper</string>
+    <string name="user">User</string>
+    <string name="shopkeeper">Shopkeeper</string>
+    <string name="register"><u>Register new account</u></string>
 </resources>
